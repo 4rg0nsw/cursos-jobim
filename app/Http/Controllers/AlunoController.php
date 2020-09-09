@@ -17,14 +17,6 @@ class AlunoController extends Controller
     {
         $this->request = $request;
         $this->repository = $aluno;
-
-        /*$this->middleware('auth');
-        $this->middleware('auth')->only([
-            'create', 'store'
-            ]);
-        $this->middleware('auth')->except([
-            'index', 'show'
-            ]);*/
     }
 
 
